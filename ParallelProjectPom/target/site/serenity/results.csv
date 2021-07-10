@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Open Chrome","Open chrome","SUCCESS","2021-06-26T14:10:21.631-05:00[America/Bogota]","0.0","66.85"
+"Open Firefox","Open Firefox","ERROR","2021-06-26T14:11:29.612-05:00[America/Bogota]","0.0","59.46"

@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="37c2a4e779a613355edaa2a8ea1d6bfc3f08ea166becaf942700aeec1274ee01.html">Flight Reservation</a></span>
+                > <span class="truncate-60"><a
+                    href="ef07f96cbae767388172b13b0cc96b96d60820d882bf25ad963ac3af5f32b40b.html">Make the flight reservation with the most economical value </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-07-2021 22:44</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Flight Reservation </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a User<br />
+I want to enter the page www.vivaair.com<br />
+To make a flight reservation
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Make the flight reservation with the most economical value
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'css selector','selector':'#nombre1ADT'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.MakeReservation.performAs(MakeReservation.java:18)<br />stepdefinitions.VIvaAirStepDefinitions.makeAFlightReservation(VIvaAirStepDefinitions.java:29)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2275397104181035454.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="1f004ba1499c7e844a0ce13e42a98dbca5513ab39eb1f93c2837753d8dd5e01f.png" title=" Given a new user can enter the reservation page" width="929"/>
+                <img src="1f004ba1499c7e844a0ce13e42a98dbca5513ab39eb1f93c2837753d8dd5e01f.png" title=" Global opens the Viva air page" width="929"/>
+                <img src="1f004ba1499c7e844a0ce13e42a98dbca5513ab39eb1f93c2837753d8dd5e01f.png" title=" Given a new user can enter the reservation page (completed)" width="929"/>
+                <img src="1f004ba1499c7e844a0ce13e42a98dbca5513ab39eb1f93c2837753d8dd5e01f.png" title=" When make a flight reservation" width="929"/>
+                <img src="1f004ba1499c7e844a0ce13e42a98dbca5513ab39eb1f93c2837753d8dd5e01f.png" title=" Global make reservation" width="929"/>
+                <img src="2105329a436a4e2e25bbaf6a8a20189f001fdd7ccc10566f89f3ed8156c2f5a8.png" title=" Global clicks on " width="929"/>
+                <img src="2105329a436a4e2e25bbaf6a8a20189f001fdd7ccc10566f89f3ed8156c2f5a8.png" title=" Global clicks on " width="929"/>
+                <img src="fe3676dd05edc10f0a557041f8b138210ca20158ffb6feb0531a2fb2c8f04fb3.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="fe3676dd05edc10f0a557041f8b138210ca20158ffb6feb0531a2fb2c8f04fb3.png" title=" Global clicks on " width="929"/>
+                <img src="c9bffbc56950f316c91cea88aa08811cef1435113e8b1fd0d8c900471ec36118.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="c9bffbc56950f316c91cea88aa08811cef1435113e8b1fd0d8c900471ec36118.png" title=" Global clicks on " width="929"/>
+                <img src="d6d2a069bea9d1d9709416f57a9e3b7466c67860f8e89da591220838876a0c91.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="d6d2a069bea9d1d9709416f57a9e3b7466c67860f8e89da591220838876a0c91.png" title=" Global clicks on " width="929"/>
+                <img src="5dbd5d4ec63d2d2c31804ed6046058489f64e971c6ba4b810a432462a5658c9f.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="5dbd5d4ec63d2d2c31804ed6046058489f64e971c6ba4b810a432462a5658c9f.png" title=" Global clicks on " width="929"/>
+                <img src="c6cec32c8d587540f1b67bc571ac842cb5fe3ec4df460ed47d23c1005e896782.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="c6cec32c8d587540f1b67bc571ac842cb5fe3ec4df460ed47d23c1005e896782.png" title=" Global clicks on " width="929"/>
+                <img src="bdeb413a87d667cbab19b728c2639fd94c7f61be112bedfc40da2c8b432d8eea.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="bdeb413a87d667cbab19b728c2639fd94c7f61be112bedfc40da2c8b432d8eea.png" title=" Global clicks on " width="929"/>
+                <img src="4e62c90237a12652a1a0be5f939c916813db19a97bf807088e6c612fd6fcb157.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="4e62c90237a12652a1a0be5f939c916813db19a97bf807088e6c612fd6fcb157.png" title=" Global clicks on " width="929"/>
+                <img src="ec96d69c5013b041dc4c69a5e291d42d96ad1ed0b53dcf19ac2241789993ed36.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="ec96d69c5013b041dc4c69a5e291d42d96ad1ed0b53dcf19ac2241789993ed36.png" title=" Global clicks on " width="929"/>
+                <img src="d8760fbf24e2bea2168ec76f33fa4cf3b42f6f6e8da06b64b43ab4b1d55d7e53.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="d8760fbf24e2bea2168ec76f33fa4cf3b42f6f6e8da06b64b43ab4b1d55d7e53.png" title=" Global clicks on " width="929"/>
+                <img src="27e797fdc84950b033b07e42fd06bd833974b73aaf902d6e22775974f0cd07a1.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="27e797fdc84950b033b07e42fd06bd833974b73aaf902d6e22775974f0cd07a1.png" title=" Global clicks on " width="929"/>
+                <img src="aa3fa2473fef904ecee7a9bd8ffa619c50c4db1bdbda0639d70ce3d48ee153d9.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="aa3fa2473fef904ecee7a9bd8ffa619c50c4db1bdbda0639d70ce3d48ee153d9.png" title=" Global clicks on " width="929"/>
+                <img src="cc4c1264b674087cf87bb0a0a2ee5f7e4c3233bca7f24039cf094e01e2105d2e.png" title=" Global clicks on  (completed)" width="929"/>
+                <img src="cc4c1264b674087cf87bb0a0a2ee5f7e4c3233bca7f24039cf094e01e2105d2e.png" title=" Global enters 'Haryana' into " width="929"/>
+                <img src="d0350d7c73ca13018f35448d75da173bb395d37c88a7d5970de76ed8e1a6807b.png" title=" Global enters 'Haryana' into  (completed): <span class='error-color'>ERROR</span>" width="929"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

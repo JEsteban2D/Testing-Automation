@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Open browser F" skipped="0" tests="1" time="0.62" timestamp="2021-06-12 02:33:59"><testcase name="Open chrome"><error message="com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;" type="java.lang.NoSuchMethodError">com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;</error><system-err>com.google.common.collect.ImmutableList.toImmutableList()Ljava/util/stream/Collector;&#13;
+com.google.automation.stepdefinitions.OpenBrowserStepDefinitions.that_a_web_user_wants_to_register_in_advantage_shopping_online_on_chrome(OpenBrowserStepDefinitions.java:26)&#13;
+✽.that a web user wants to register in advantage shopping online on chrome(src/test/resources/features/openBrowser.feature:8)&#13;
+</system-err></testcase></testsuite>
